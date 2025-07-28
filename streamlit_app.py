@@ -1,22 +1,3 @@
-streamlit
-nltk
-import streamlit as st
-import nltk
-
-# Download NLTK data files
-nltk.download('punkt')
-nltk.download('stopwords')
-
-st.title("My NLTK + Streamlit App")
-st.write("This app uses NLTK!")
-
-from nltk.tokenize import word_tokenize
-text = "Streamlit makes it easy to build apps."
-tokens = word_tokenize(text)
-st.write("Tokens:", tokens)
-
-
-
 
 import streamlit as st
 import pandas as pd
